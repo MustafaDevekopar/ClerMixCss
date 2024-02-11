@@ -291,3 +291,120 @@ section.second div.botom img{
     object-fit: cover;
 }
 
+
+/* ============= start section 3 ============== */
+
+section.three{
+    margin-top: 60px;
+    padding-bottom: 50px;
+    background-color: var(--sec-clr);
+    display: flex;
+    flex-direction: column; 
+}
+section.three .m-title {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 170px;
+}
+section.three .m-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+}
+section.three nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+section.three nav h3 {
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: orangered;
+}
+section.three nav ul {
+    justify-content: space-between;
+    gap: 60px;
+    color: aliceblue;
+    font-size: 15px;
+    height: 100px;
+}
+section.three div.img-slider{
+    padding-top: 60px;
+    height: 330px;
+    display: flex;
+    gap: 30px;
+}
+section.three div.img-slider div.img-div{
+    height: 100%;
+    flex: 1;
+}
+section.three div.img-slider div.img-div:first-child{
+    flex: .7;
+    border-radius: 0 15px 15px 0;
+}
+section.three div.img-slider div.img-div:first-child img{
+    flex: .7;
+    border-radius: 0 15px 15px 0;
+}
+section.three div.img-slider div.img-div:last-child{
+    flex: .5;
+}
+section.three div.img-slider div.img-div:last-child img{
+    border-radius: 15px 0 0 15px;
+}
+section.three div.img-slider div.img-down{
+    display: flex;
+    align-items: flex-end;    
+}
+section.three div.img-slider div.img-center{
+    display: flex;
+    align-items: center; 
+}
+
+section.three div.img-slider img{
+    height: 220px;   
+    flex: 1;
+    width: 100%;
+    border-radius: 20px;
+}
+section.three  .slider-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 120px;
+    margin-top: -15px;
+    
+}
+section.three  .slider-btn .cercl{
+    border: 2px solid rgb(156, 215, 241);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section.three  .slider-btn i.fa-solid {
+    color: rgb(156, 215, 241);
+    padding: 6px;
+}
+section.three  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .btn button{
+    margin-top: 15px;
+    padding: 20px 40px;
+    border: none;
+    background: rgb(241,12,120);
+    background: linear-gradient(148deg, rgba(241,12,120,1) 14%, rgba(237,92,30,1) 85%, rgba(244,60,28,1) 96%);
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+/* ============= end section 3 ============== */
