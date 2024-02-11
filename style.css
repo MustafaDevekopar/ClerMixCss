@@ -210,3 +210,84 @@ div.container section.main .botom .right .avatar2{
     border-radius: 50%;
 }
 
+/* ===== sec 2 ===== */
+
+/* =============== start section 2 ============ */
+section.second{
+    margin-top: 70px; 
+}
+section.second nav {
+    height: 60px;
+
+    align-items: center;
+}
+section.second nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+section.second nav ul{
+    list-style: none;
+}
+
+section.second div.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 250px;
+    padding: 0 33%;
+}
+section div.top h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--sec-clr);
+}
+section.second div.top p.upper-case{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--sec-clr);
+    white-space: 20px;
+    
+}
+section.second div.top h2 span{
+    color: orangered;
+}
+
+section.second div.botom{
+    display: flex;
+    gap: 30px;
+    padding: 0 200px;
+}
+section.second div.botom div{
+    height: 300px;
+
+}
+section.second div.botom div.img1{
+    flex: .6;
+}
+section.second div.botom div.img2{
+    flex: .3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+section.second div.botom div.img2 img{
+    height: 45%;
+}
+section.second div.botom div.img3{
+    flex: .3;
+}
+section.second div.botom img.img1{
+    width: 100%;
+    height: 100%;
+}
+section.second div.botom img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
