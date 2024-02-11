@@ -1,0 +1,12 @@
+:root{
+    --sec-clr: #19376D;
+    /* --sec-clr: #110c82; */
+    --btn-lite-color: rgb(204, 219, 238);
+
+    /* --sec-col: #0B2447; */
+    --white-bink-clr: #FFE6EB;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
