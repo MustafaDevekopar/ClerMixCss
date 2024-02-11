@@ -408,3 +408,153 @@ section .btn button{
 
 
 /* ============= end section 3 ============== */
+
+/* ============= start section 4 ============== */
+
+section.four{
+    margin-top: 60px;
+    height: 1000px;
+}
+section.four .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+ .p-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    line-height: 20px;
+    color: var(--sec-clr);
+}
+section.four .scrol-btn {
+    height: 60px;
+    width: 500px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgb(204, 219, 238);
+    border-radius: 35px;
+    display: flex;
+    color: #19376D;
+}
+section.four .scrol-btn div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.four .scrol-btn .left{
+    flex: 1;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+section.four .scrol-btn .right{
+    flex: 1;
+    border-radius: 30px;
+}
+section.four .botom{
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(190, 115, 115); */
+    height: 550px;
+    gap: 40px;
+    padding: 50px 250px;
+}
+section.four .botom div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    transition: all .3s ease-in-out;
+}
+section.four .botom div:hover{
+    transform: scale(1.01);
+}
+section.four .botom div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: var(--sec-clr);
+
+}
+section.four .botom div ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+section.four .botom div h4{
+    font-size: 25px;
+    color: var(--sec-clr);
+
+}
+section.four .botom .right-cart ul li{
+    color: var(--sec-clr);
+}
+section.four .botom .left-cart {
+    flex: 1;
+    background: rgb(238,9,117);
+    background: linear-gradient(99deg, rgba(238,9,117,1) 2%, rgba(223,80,45,1) 57%, rgba(253,89,29,1) 80%);
+    border-radius: 30px;
+    height: 100%;
+}
+section.four .botom .right-cart {
+    flex: 1;
+    box-shadow: -3px 3px 51px 2px rgba(0,0,0,0.26);
+    -webkit-box-shadow: -3px 3px 51px 2px rgba(0,0,0,0.26);
+    -moz-box-shadow: -3px 3px 51px 2px rgba(0,0,0,0.26);
+    border-radius: 30px;
+    height: 100%;
+}
+section.four .botom div.scrol {
+    height: 2px;
+    width: 80%;
+    background-color: white;
+}
+section.four .botom .scrol button{
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+section.four .botom span.price {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+section.four .botom .right-cart span.price {
+    color: orangered;
+}
+section.four .botom button.buy-now {
+    /* margin-top: 15px; */
+    padding: 20px 80px;
+    border: none;
+    border-radius: 30px;
+
+}
+section.four .botom .left-cart .buy-now {
+    color: var(--sec-clr);
+    background-color: white;
+    border-radius: 30px;
+
+}
+section.four .botom .right-cart .buy-now {
+    background: rgb(241,12,120);
+    background: linear-gradient(148deg, rgba(241,12,120,1) 14%, rgba(237,92,30,1) 85%, rgba(244,60,28,1) 96%);
+    color: white;
+
+}
+
+
+.my-logo{
+    width: 150px;
+    border-radius: 3px;
+}
+
